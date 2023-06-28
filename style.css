@@ -1,0 +1,113 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&display=swap');
+*{
+  
+    padding: 0;
+    box-sizing: border-box;
+
+  
+ 
+
+}
+
+h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+   
+  margin-left: 15px;
+}
+h3{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 15px;
+       margin-left: 15px;
+    }
+
+
+.container{
+    background-color: rgb(231, 235, 238);
+    padding: 50px;
+    margin: 50px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas: 
+"violeta violeta violeta celeste blancaderecha"
+"blanca azul azul azul blancaderecha";
+gap: 20px;
+}
+
+.user{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+ 
+
+    
+}
+
+
+
+.blanco{
+  
+    font-weight: 500;
+    margin-left: 70px;
+    color: antiquewhite;
+
+}
+
+
+    
+
+  
+
+.violeta{
+ 
+  grid-area: violeta;
+    background-color:hsl(263, 55%, 52%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.blancoderecha{
+    grid-area: blancaderecha;
+  
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+   
+
+
+
+}
+
+.celeste{
+    grid-area: celeste;
+  
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.blanca{
+    grid-area: blanca;
+ 
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.azul{
+    grid-area: azul;
+ 
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+img{
+    border-radius: 50% ;
+
+}
